@@ -3,10 +3,10 @@
 - Web chatbot prototype tailored for GSPP's external website (gspp.berkeley.edu). Powered by GPT-3.5-Turbo.
 
 - How to run the project
-        - clone the repo
+	- clone the repo
 		- `git clone https://github.com/yourusername/chatGSPP.git`
 		- `cd chatGSPP`
-        - run the web-scraper
+	- run the web-scraper
 		- `python web-scraper.py`
 	- run the question/answer system; adjust questions as needed
 		- `python qa-system.py`
