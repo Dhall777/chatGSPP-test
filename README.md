@@ -1,6 +1,6 @@
 # chatGSPP
 
-- Web chatbot prototype tailored for GSPP's external website (gspp.berkeley.edu). Powered by GPT-3.5-Turbo.
+Web chatbot prototype tailored for GSPP's external website (gspp.berkeley.edu). Powered by GPT-3.5-Turbo.
 
 - How to run the project
 	- clone the repo
