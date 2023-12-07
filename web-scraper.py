@@ -140,7 +140,7 @@ def crawl(url):
 
     # Maximum number of pages to crawl | recommend starting with 10, increase based on performance
     # max_pages = 10
-    max_pages = 100
+    max_pages = 700
 
     # While the queue is not empty, continue crawling
     #while queue:
