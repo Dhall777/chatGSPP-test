@@ -4,7 +4,7 @@ Web chatbot prototype tailored for GSPP's external website (gspp.berkeley.edu). 
 
 - How to run the project
 	- clone the repo and install dependencies
-		- `git clone https://github.com/yourusername/chatGSPP.git`
+		- `git clone https://github.com/Dhall777/chatGSPP.git`
 		- `cd chatGSPP`
 		- `pip install -r requirements.txt`
 	- run the web-scraper

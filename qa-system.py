@@ -181,3 +181,6 @@ print("\n")
 
 print(answer_question(df, question="Who is the GSPP's Dean?"))
 print("\n")
+
+print(answer_question(df, question="Give me a summary of how GSPP helps the world"))
+print("\n")
