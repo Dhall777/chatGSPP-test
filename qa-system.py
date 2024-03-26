@@ -151,8 +151,8 @@ def answer_question(
     try:
         # Create completions using the question and context
         response = openai.Completion.create(
-            # prompt=f"Answer the question based on the context.",
-            prompt=f"Answer the question based on the context below, and if the question can't be answered based on the context, say \"Hm, I'm not sure\"\n\nContext: {context}\n\n---\n\nQuestion: {question}\nAnswer:",
+            prompt=f"Answer the question based on the context. \"\n\nContext: {context}\n\n---\n\nQuestion: {question}\nAnswer:",
+            # prompt=f"Answer the question based on the context below, and if the question can't be answered based on the context, say \"Hm, I'm not sure\"\n\nContext: {context}\n\n---\n\nQuestion: {question}\nAnswer:",
             temperature=0,
             max_tokens=max_tokens,
             top_p=1,
@@ -176,11 +176,36 @@ print("\n")
 print(answer_question(df, question="Can you tell me about GSPP's research impact?"))
 print("\n")
 
-print(answer_question(df, question="How can I learn more about GSPP?"))
+print(answer_question(df, question="Who can I contact to learn more about GSPP?"))
 print("\n")
 
-print(answer_question(df, question="Who is the GSPP's Dean?"))
+print(answer_question(df, question="Who is the Dean of GSPP?"))
 print("\n")
 
-print(answer_question(df, question="Give me a summary of how GSPP helps the world"))
+print(answer_question(df, question="Give me a summary of how GSPP helps the world."))
 print("\n")
+
+print(answer_question(df, question="Why would I want to attend GSPP as a student?"))
+print("\n")
+
+print(answer_question(df, question="Why would I want to work at GSPP as a staff member?"))
+print("\n")
+
+print(answer_question(df, question="Why would I want to work at GSPP as a faculty member?"))
+print("\n")
+
+print(answer_question(df, question="Can you tell me about the faculty members that do research at GSPP?"))
+print("\n")
+
+print(answer_question(df, question="How many students does GSPP have?"))
+print("\n")
+
+print(answer_question(df, question="Can you give me more information about GSPP degree programs?"))
+print("\n")
+
+print(answer_question(df, question="What are some important enrollment dates/deadlines for GSPP degree programs?"))
+print("\n")
+
+print(answer_question(df, question="Who is Darrian Hall?"))
+print("\n")
+
